@@ -1,0 +1,70 @@
+<!--
+  This project is design for the purpose of food ordering system. A client choose what they want 
+  and the price of the item will be displayed. This is one of my personal projects im working on.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Food Item</title>
+  <link rel="stylesheet" type="text/css" href="item.css">    
+</head>
+<body>
+  <h2>Jodeem African Cuisine</h2>
+  
+<div id="topic">
+  <header class="center">
+    <div>${Jodeem African Cuisine }</div>
+    <div>${ vatNo }</div>
+    <h2>Foodie</h2>
+  </header>
+
+<section>
+  <table class="summary" cellspacing="0" align="center">
+    <tbody>
+      <tr>
+        <td>Ref No.: 0000034</td>
+        <td>Date: ${ date }</td>
+      </tr>
+      <tr>
+        <td>Till ID: 2</td>
+        <td>Time: ${ time }</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+</div>
+
+<button class="button" onclick ="food1()">Oxtail & Curried Goat</button>
+<button class="button" onclick ="food2()">Jerk Chicken & Jerk BBQ Wings </button>
+<button class="button" onclick ="food3()">Brown Stew & Curried Chicken</button><br>
+<button class="button" onclick ="food4()">Curried Red Snapper</button> 
+<button class="button" onclick ="food5()">Brown Stew Red Snapper</button>
+<button class="button" onclick ="food6()">Ackee & Saltfish</button><br> 
+<button class="button" onclick ="food7()">Callaloo & Saltfish</button>
+<button class="button" onclick ="food8()">King Fish</button>
+<button class="button" onclick ="food9()">Curried Chicken</button><br>
+<button class="button" onclick ="food10()">Jerk Chicken</button>
+<button class="button" onclick ="food11()">Brown Stew Chicken</button>
+<button class="button" onclick ="food12()">jerk BBQ Wings</button><br>
+<button class="button" onclick ="food13()">Curried Shrimp</button>
+<button class="button" onclick ="food14()">Steamed Red Snapper</button>
+<button id="btnPrint" class="button2">Complete Order</button>	
+
+<div id="container">
+  <table class="summary" cellspacing="0" align="right" id="table" style="cursor: pointer">
+    <tbody class= "colorit">
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+  <div id="totalContainer" style="font-size:20px"></div> <!-- parseFloat("3.2") + parseInt("2.7") = 3.2 + 2 = 5.2 --> 
+  <script src="product.js"></script> 
+</body>
+</html>
