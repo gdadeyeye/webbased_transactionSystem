@@ -1,3 +1,6 @@
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+
 const $btnPrint = document.querySelector("#btnPrint");
 $btnPrint.addEventListener("click",() =>{
 //window.print();
