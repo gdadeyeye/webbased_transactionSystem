@@ -212,3 +212,14 @@ var total = 0;
             "Total:" + total;
         }
         
+
+
+function beverage1(){
+  document.getElementById("movement").style.display = "none";
+  document.getElementById("thedrinks").style.display = "block";
+}
+
+function foodmenu(){
+  document.getElementById("movement").style.display = "block";
+  document.getElementById("thedrinks").style.display = "none";
+}
