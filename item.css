@@ -15,20 +15,7 @@ body{
     width: 150px;
     height: 72px;   
 }
-.button2{
-    background-color:crimson;
-    border: none;
-    color: white;
-    padding: 5px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 11px;
-    margin: 2px 2px;
-    cursor: pointer;
-    width: 150px;
-    height: 72px;
-}
+
 
 p{
 display: table;
@@ -80,14 +67,14 @@ width: 15%;
 }
 
 #totalContainer {
-    margin-left: 650px;
-    position: relative;
-    top:-410px;
+    margin-left: 850px;
+    margin-top:350px;
+    height: -300px;
 }
 
 #container{
-    position: relative;
-    top:-410px;
+    margin-top:-375px;
+    margin-right: 170px;
 }
 
 h2{
@@ -96,13 +83,24 @@ h2{
 
 
 #movement{
-    margin-left: 310px;
-    margin-top: 
-    -360px;
+    margin-left: 270px;
+    margin-top: -315px;
 }
 
 #thedrinks{
-    margin-left: 310px;
-    margin-top: 
-    -360px;
+    margin-left: 270px;
+    margin-top: -315px;
 }
+
+#alignment{
+    position: relative;
+    top: 20px;   
+}
+
+.hidden {
+    display: block;
+  }
+  
+  .hide{
+    display: none;
+  }
