@@ -203,7 +203,294 @@ var total = 0;
       cell2.innerHTML = p11;
       total = total + p11;
       totalPrice();
-    }  
+    } 
+    
+    function drink1(){
+      var s11 = "Coffee";
+      var p11 = 5.00;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    }
+    
+    function drink2(){
+      var s11 = "Tea";
+      var p11 = 4.50;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink3(){
+      var s11 = "lemonade";
+      var p11 = 6.25;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink4(){
+      var s11 = "Orange Juice";
+      var p11 = 10.00;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink5(){
+      var s11 = "Soda";
+      var p11 = 5.50;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink6(){
+      var s11 = "Water";
+      var p11 = 2.50;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink7(){
+      var s11 = "Iced TEa";
+      var p11 = 3.50;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink8(){
+      var s11 = " Iced Coffee";
+      var p11 = 5.25;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink9(){
+      var s11 = "Smoothie";
+      var p11 = 7.50;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink10(){
+      var s11 = "Mike Shake";
+      var p11 = 10.00;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink11(){
+      var s11 = "Mojito";
+      var p11 = 15.00;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink12(){
+      var s11 = "Majarita";
+      var p11 = 15.50;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink13(){
+      var s11 = "Martini";
+      var p11 = 20.00;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink14(){
+      var s11 = "Old FAshioned";
+      var p11 = 15.00;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink15(){
+      var s11 = "Pina Colada";
+      var p11 = 20.50;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink16(){
+      var s11 = "Cosmopolitan";
+      var p11 = 25.00;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink17(){
+      var s11 = "Hot Chocolate";
+      var p11 = 10.25;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink18(){
+      var s11 = "Green Tea";
+      var p11 = 5.20;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+    function drink19(){
+      var s11 = "WIne";
+      var p11 = 25.00;
+      //document.getElementById("item");
+      //document.getElementById("tab");
+      var row = table.insertRow();
+      row.setAttribute("onclick", "test(this)");
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = s11;
+      cell2.innerHTML = p11;
+      total = total + p11;
+      totalPrice();
+    } 
+
+
    function totalPrice(){
           if (total < 0) {
             total = 0;
